@@ -1,0 +1,43 @@
+#frameContainer
+{
+    background-color: rgb(255, 225, 247);
+    padding-right: 33%;
+    padding-left: 33%;
+}
+
+#frame
+{
+    border: 1px solid black;
+}
+
+#buttonContainer
+{
+    padding-right: 33%;
+    padding-left: 33%;
+    display: table;
+}
+
+#button
+{
+    display: table-cell;
+    width: 30%;
+    background-color: lightblue;
+    border: 7px solid aliceblue;
+    border-radius: 100px;
+    color: darkblue;
+}
+
+.container /*used to align items in a grid! will be made in to a table for ease of use (less lines)*/
+{
+    color:black;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.item /*the items inside the contatiner will become table cells to evenly space and/or center them appropriately!*/
+{
+    display: table-cell;
+    text-align: center;
+}
